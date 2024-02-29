@@ -46,7 +46,7 @@ app.post("/submit-contactus", async (req, res) => {
     // Construct the email content
     const mailOptions = {
       from: 'gautamsolar.vidoes01@gmail.com',
-      to: 'jokerkali99@gmail.com',
+      to: 'info@gautamsolar.com',
       subject: 'New Contact Us Form Submission',
       html: `
       <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
@@ -86,7 +86,7 @@ app.post("/submit-contactbox", async (req, res) => {
 
     const mailOptions = {
       from: "gautamsolar.vidoes01@gmail.com",  // sender email
-      to: "jokerkali99@gmail.com",  // another destination email
+      to: "info@gautamsolar.com",  // another destination email
       subject: "New Contact Box Form Submission",
       html: `
       <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
@@ -122,7 +122,7 @@ app.post("/submit-solarplant", async (req, res) => {
 
     const mailOptions = {
       from: "gautamsolar.vidoes01@gmail.com",  // sender email
-      to: "jokerkali99@gmail.com",  // another destination email
+      to: "info@gautamsolar.com",  // another destination email
       subject: "solar plant Box Form Submission",
       html: `
       <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
