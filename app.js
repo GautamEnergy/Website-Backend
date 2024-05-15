@@ -7,6 +7,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 const url = require('url');
 // Middleware
+
 app.use(cors());
 app.use(bodyParser.json());
 function extractWebsiteName(domain) {
